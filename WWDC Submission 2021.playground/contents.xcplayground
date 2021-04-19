@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playground version="6.0" target-platform="ios" requires-full-environment="false">
+    <pages>
+        <page name="WWDC 2021"/>
+    </pages>
+</playground>

@@ -1,0 +1,60 @@
+[
+  {
+    "shortDescription" : "",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "isOptional" : "0",
+        "formattedType" : "String",
+        "type" : "String",
+        "name" : "label",
+        "shortDescription" : "Text label"
+      }
+    ],
+    "version" : "",
+    "modelParameters" : [
+
+    ],
+    "author" : "Derek Hsieh",
+    "specificationVersion" : 3,
+    "license" : "",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.14",
+      "tvOS" : "12.0",
+      "watchOS" : "5.0",
+      "iOS" : "12.0",
+      "macCatalyst" : "12.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_textClassifier"
+    },
+    "inputSchema" : [
+      {
+        "isOptional" : "0",
+        "formattedType" : "String",
+        "type" : "String",
+        "name" : "text",
+        "shortDescription" : "Input text"
+      }
+    ],
+    "classLabels" : [
+      "sadness",
+      "anger",
+      "disgust",
+      "fear",
+      "anticipation",
+      "trust",
+      "surprise",
+      "joy"
+    ],
+    "generatedClassName" : "textsentiment_3",
+    "userDefinedMetadata" : {
+      "com.apple.createml.app.tag" : "53.6",
+      "com.apple.createml.version" : "11.2.3",
+      "com.apple.coreml.model.preview.type" : "textClassifier",
+      "com.apple.createml.app.version" : "2.0"
+    },
+    "method" : "predict"
+  }
+]
